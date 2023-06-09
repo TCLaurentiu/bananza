@@ -1,0 +1,15 @@
+.reportContainer{
+    display: flex;
+    box-shadow: var(--shadow);
+}
+.reportContainer>div{
+    padding:10px 20px 10px 20px;
+    width: calc(100%/3);
+    color:white;
+}
+.reportContainer:nth-child(2n){
+    background: var(--dblack);
+}
+.reportContainer:nth-child(2n+1){
+    background: #3f3f3f;
+}
